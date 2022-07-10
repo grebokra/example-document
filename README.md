@@ -1,7 +1,12 @@
 # Boilerplate code for writing documents using rmarkdown+pandoc+xelatex 
 
-## Dependences
-#### openSUSE Tumbleweed
+## Environment
+### Nix
+```bash
+nix-shell
+```
+
+### openSUSE Tumbleweed
 ```bash
 zypper install pandoc texlive-xelatex-dev-bin R tcl libpng libpng-devel texlive-babel-russian
 ```
@@ -11,7 +16,7 @@ english only documents, but because I write a lot in russian and I will be the o
 cool if I'm wrong XD) of this template, I've decided to put it in the command installing required
 packages.
 
-### Rmarkdown installation
+#### Rmarkdown installation
 
 ```bash
 sudo R
