@@ -42,34 +42,24 @@ Greek letters:
 * $\tau$
 
 \begin{equation}
-  \vec{A} = \vec{x_0}  A_x + \vec{y_0}  A_y + \vec{z_0} A_z
+  \vec{A} = \vec{x_{0}}  A_{x} + \vec{y_{0}}  A_{y} + \vec{z_{0}} A_{z}
 \end{equation}
 
-* $\vec{x_0}, \vec{y_0}, \vec{z_0}$
-* $A_x, A_y,  A_z$
+* $\vec{x_{0}}, \vec{y_{0}}, \vec{z_{0}}$
+* $A_{x}, A_{y},  A_{z}$
 
 \begin{equation}
-  \vec{A} + \vec{B} = \vec{x_0}  (A_x + B_x) + \vec{y_0} (A_y + B_y) + \vec{z_0} (A_z + B_z)
+  \vec{A} + \vec{B} = \vec{x_{0}}  (A_{x} + B_{x}) + \vec{y_{0}} (A_{y} + B_{y}) + \vec{z_{0}} (A_{z} + B_{z})
 \end{equation}
 
 \begin{equation}
-  |\vec{A}, \vec{B}| = \vec{A} \vec{B} = \vec{\nu_0} A B sin(\alpha) =
+  |\vec{A}, \vec{B}| = \vec{A} \vec{B} = \vec{\nu_{0}} A B sin(\alpha) =
     \begin{pmatrix}
       \vec{x_0} & \vec{y_0} & \vec{z_0}\\
       A_x & A_y & A_z\\
       B_x & B_y & B_z
   \end{pmatrix}
 \end{equation}
-
-Table:
-
-+:-----------------------------------+:-----------:+:----------:+
-| Name                               |   Name2     |   smth     |
-+------------------------------------+-------------+------------+
-| asdasdasdasdasdasdasdas            |   $\vec{B}$ |   asda     |
-+------------------------------------+-------------+------------+
-| odjdfghkgjhkgfnk                   |   asdasd    |   [Кл/м^3] |
-+------------------------------------+-------------+------------+
 
 Python code output:
 ```{python, echo=FALSE}
